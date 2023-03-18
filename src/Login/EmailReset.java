@@ -128,8 +128,8 @@ public class EmailReset extends javax.swing.JFrame {
         Random rand=new Random(); 
         code=rand.nextInt(900000)+100000;
       
-        String user="wixFOP@gmail.com";
-        String password="WIX@))!123";
+        String user="XXXXX@gmail.com";
+        String password="XXXXXXXXX";
         String to = jTextField1.getText();
         String subject="Resetting code";
         String message="Your 6 digits code is"+code;
